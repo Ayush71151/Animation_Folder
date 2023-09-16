@@ -1,0 +1,32 @@
+body {
+    background: black;
+    /* Make it white if you need */
+    color: #fcbe24;
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#center {
+    /* background-color: rgb(221, 175, 25); */
+    background-color: rgb(66, 60, 60);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* box-shadow: 0px 0px 30px rgb(231, 235, 45, 0.6); */
+    margin: 50px;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 45px;
+    margin-left: 20px;
+    background-color: rgb(66, 60, 60);
+}
